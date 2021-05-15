@@ -4,7 +4,7 @@ This project aims to design, build, train and tune a CNN to classify a set of im
 * `data_storage.py` : python script that takes the image files and converts them into NumPy arrays that are the stored into `.npy` files to allow for immediate loading and use in the notebook. Check before running to ensure the file paths used are according to your folder structure and storage
 * `chech_data.py`: after the `images.npy` and `labels.npy` files are created using the script above, this script can be run them and ensure everything is stored and can be retrieved easily. Takes an index as input and outputs the corresponding label and image
 * `modelling.ipynb`: created in Google Colab and implements the deep learning algorithm for our presented problem. It has descriptions and notes throughout to report on the *what, how and why* of the model.
-* `finalmodel.h5`: the final trained model, to be used for application oriented scripts or deployment in some other project
+* `finalmodel.h5`: the final trained model, to be used for application oriented scripts or deployment in some other project. File size is too large, so GitHub will not display a preview.
 
 ### Data:
 
