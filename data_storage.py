@@ -40,7 +40,6 @@ datanp = np.array(datalist)
 labelnp = np.array(labellist)
 #print(datanp.shape, '\t', labelnp.shape)
 
-
 np.save('images',datanp)
 print("Image data saved")
 

@@ -2,11 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from skimage.io import imshow
 
+#load our processes data as numpy arrays
 imdata = np.load("images.npy")
 labeldata = np.load("labels.npy")
 
-print(imdata.shape)
-print(labeldata.shape)
+#print(imdata.shape)
+#print(labeldata.shape)
 
 index = int(input("Enter image index: "))
 while index >= 0 and index < imdata.shape[0]:
